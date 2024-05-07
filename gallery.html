@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="gallery.css" />
+  <title>Hulk Gym - Gallery</title>
+</head>
+<body>
+  <nav>
+    <!-- Navigation content -->
+    <div class="nav__logo">
+      <a href="#" ><img class="hulkphoto" src="./assets/Hulkgym.jpg" alt="logo" /></a>
+      <span class="nav__brand">Hulk Gym</span> <!-- New span for brand name -->
+    </div>
+    <ul class="nav__links">
+      <li class="link"><a href="./index.html">Home</a></li>
+      <li class="link"><a href="./gallery.html">Gallery </a></li>
+      <li class="link"><a href="./aboutus.html">About us</a></li>
+      <li class="link"><a href="./contactus.html">Contact us</a></li>
+    </ul>
+    <button class="btn">Join Now</button>
+  </nav>
+
+  <section class="section__container gallery__container">
+    <h2 class="section__header">Gallery</h2>
+    <div class="gallery__images">
+      <!-- Placeholder for gallery images -->
+      <div class="gallery__image">
+        <img src="./assets/hulkgym1.jpg" alt="Gallery Image 1">
+      </div>
+      <div class="gallery__image">
+        <img src="./assets/hulkgym2.jpg" alt="Gallery Image 2">
+      </div>
+      <div class="gallery__image">
+        <img src="./assets/hulkgym3.jpg" alt="Gallery Image 1">
+      </div>
+      <div class="gallery__image">
+        <img src="./assets/hulkgym4.jpg" alt="Gallery Image 1">
+      </div>
+      <div class="gallery__image">
+        <img src="./assets/hulkgym5.jpg" alt="Gallery Image 1">
+      </div>
+      <div class="gallery__image">
+        <img src="./assets/hulkgym6.jpg" alt="Gallery Image 1">
+      </div>
+      <div class="gallery__image">
+        <img src="./assets/hulkgym6.jpg" alt="Gallery Image 1">
+      </div>
+      <div class="gallery__image">
+        <img src="./assets/hulkgym7.jpg" alt="Gallery Image 1">
+      </div>
+      <!-- Add more image placeholders as needed -->
+    </div>
+  </section>
+
+  <footer class="section__container footer__container">
+    <span class="bg__blur"></span>
+    <span class="bg__blur footer__blur"></span>
+    <div class="footer__col">
+      <div class="footer__logo"><img src="./assets/Hulkgym.jpg" alt="logo" /></div>
+
+      <p>
+        Take the first step towards a healthier, stronger you with our
+        unbeatable pricing plans. Let's sweat, achieve, and conquer together!
+      </p>
+      <div class="footer__socials">
+        <a href="#"><i class="ri-facebook-fill"></i></a>
+        <a href="#"><i class="ri-instagram-line"></i></a>
+        <a href="#"><i class="ri-twitter-fill"></i></a>
+      </div>
+    </div>
+    <div class="footer__col">
+      <h4>About Us</h4>
+      <a href="#">Blogs</a>
+      <a href="#">Security</a>
+      <a href="#">Careers</a>
+    </div>
+    <div class="footer__col">
+      <h4>Contact</h4>
+      <a href="./contactus.html">Contact Us</a>
+      <a href="./aboutus.html">About us</a>
+      <a href="./gallery.html">Gallery </a>
+    </div>
+  </footer>
+  <div class="footer__bar">
+    Copyright © 2024 Yash & Kuldeep. All rights reserved.
+  </div>
+  <script>
+    // Example JavaScript: Change button color on hover
+    const button = document.querySelector('.btn');
+    button.addEventListener('mouseenter', () => {
+      button.style.backgroundColor = '#6ab04c'; // Change to a shade of green
+    });
+    button.addEventListener('mouseleave', () => {
+      button.style.backgroundColor = 'var(--secondary-color)'; // Revert to original color
+    });
+  </script>
+</body>
+</html>

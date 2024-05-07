@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="contact_us.css" />
+  <title>Hulk Gym - Contact Us</title>
+</head>
+<body>
+  <nav>
+    <!-- Navigation content -->
+    <div class="nav__logo">
+      <a href="#"><img class="hulkphoto" src="./assets/Hulkgym.jpg" alt="logo" /></a>
+      <span class="nav__brand">Hulk Gym</span> <!-- New span for brand name -->
+    </div>
+    <ul class="nav__links">
+      <li class="link"><a href="./index.html">Home</a></li>
+      <li class="link"><a href="./gallery.html">Gallery </a></li>
+      <li class="link"><a href="./aboutus.html">About us</a></li>
+      <li class="link"><a href="./contactus.html">Contact us</a></li>
+    </ul>
+    <button class="btn">Join Now</button>
+  </nav>
+
+  <section class="section__container contact__container">
+    <h2 class="section__header">Contact Us</h2>
+    <div class="contact__info">
+      <div class="contact__image">
+        <img src="./assets/contact usimage.jpg" alt="Contact Us Image">
+      </div>
+      <div class="contact__details">
+        <p>For any inquiries, please feel free to contact us using the information provided below:</p>
+        <ul>
+          <li>Email: info@hulkgym.com</li>
+          <li>Phone: +1 123 456 7890</li>
+          <li>Address: Pitreshwer Colony, Swami Vivekanand Nagar, Shirput, Shirpur-Warwade, Maharashtra 425405</li>
+        </ul>
+        <p>Our customer service team is available:</p>
+        <ul>
+          <li>Monday to Friday: 9am - 6pm</li>
+          <li>Saturday: 10am - 4pm</li>
+          <li>Sunday: Closed</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer class="section__container footer__container">
+    <span class="bg__blur"></span>
+    <span class="bg__blur footer__blur"></span>
+    <div class="footer__col">
+      <div class="footer__logo"><img src="./assets/Hulkgym.jpg" alt="logo" /></div>
+      <p>
+        Take the first step towards a healthier, stronger you with our
+        unbeatable pricing plans. Let's sweat, achieve, and conquer together!
+      </p>
+      <div class="footer__socials">
+        <a href="#"><i class="ri-facebook-fill"></i></a>
+        <a href="#"><i class="ri-instagram-line"></i></a>
+        <a href="#"><i class="ri-twitter-fill"></i></a>
+      </div>
+    </div>
+    <div class="footer__col">
+      <h4>About Us</h4>
+      <a href="#">Blogs</a>
+      <a href="#">Security</a>
+      <a href="#">Careers</a>
+    </div>
+    <div class="footer__col">
+      <h4>Contact</h4>
+      <a href="./contactus.html">Contact Us</a>
+      <a href="./aboutus.html">About Us</a>
+      <a href="./gallery.html">Gallery</a>
+    </div>
+  </footer>
+  <div class="footer__bar">
+    Copyright © 2024 Yash & Kuldeep. All rights reserved.
+  </div>
+  <script>
+    // Example JavaScript: Change button color on hover
+    const button = document.querySelector('.btn');
+    button.addEventListener('mouseenter', () => {
+      button.style.backgroundColor = '#6ab04c'; // Change to a shade of green
+    });
+    button.addEventListener('mouseleave', () => {
+      button.style.backgroundColor = 'var(--secondary-color)'; // Revert to original color
+    });
+  </script>
+</body>
+</html>

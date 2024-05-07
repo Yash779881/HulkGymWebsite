@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Hulk Gym - About Us</title>
+</head>
+<body>
+  <nav>
+    <!-- Navigation content -->
+    <div class="nav__logo">
+      <a href="#"><img class="hulkphoto" src="./assets/Hulkgym.jpg" alt="logo" /></a>
+      <span class="nav__brand">Hulk Gym</span> <!-- New span for brand name -->
+    </div>
+    <ul class="nav__links">
+      <li class="link"><a href="./index.html">Home</a></li>
+      <li class="link"><a href="./gallery.html">Gallery</a></li>
+      <li class="link"><a href="./aboutus.html">About us</a></li>
+      <li class="link"><a href="./contactus.html">Contact us</a></li>
+    </ul>
+    <button class="btn">Join Now</button>
+  </nav>
+
+  <section class="section__container about__container">
+    <h2 class="section__header">About Us</h2>
+    <div class="about__info">
+      <p>
+        Hulk Gym is more than just a gym; it's a community dedicated to helping you achieve your fitness goals.
+        With state-of-the-art equipment, experienced trainers, and a supportive environment, we're here to
+        empower you on your fitness journey.
+      </p>
+      <p>
+        Whether you're a seasoned athlete or just starting out, there's a place for you at Hulk Gym.
+        Join us today and discover the strength within you!
+      </p>
+    </div>
+    <div class="feedback__form">
+      <h3>Feedback Form</h3>
+      <form action="#" method="post">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="feedback">Feedback:</label>
+          <textarea id="feedback" name="feedback" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="section__container footer__container">
+    <span class="bg__blur"></span>
+    <span class="bg__blur footer__blur"></span>
+    <div class="footer__col">
+      <div class="footer__logo"><img src="./assets/Hulkgym.jpg" alt="logo" /></div>
+      <p>
+        Take the first step towards a healthier, stronger you with our
+        unbeatable pricing plans. Let's sweat, achieve, and conquer together!
+      </p>
+      <div class="footer__socials">
+        <a href="#"><i class="ri-facebook-fill"></i></a>
+        <a href="#"><i class="ri-instagram-line"></i></a>
+        <a href="#"><i class="ri-twitter-fill"></i></a>
+      </div>
+    </div>
+    <div class="footer__col">
+      <h4>About Us</h4>
+      <a href="#">Blogs</a>
+      <a href="#">Security</a>
+      <a href="#">Careers</a>
+    </div>
+    <div class="footer__col">
+      <h4>Contact</h4>
+      <a href="./contactus.html">Contact Us</a>
+      <a href="./aboutus.html">About Us</a>
+      <a href="./gallery.html">Gallery</a>
+    </div>
+  </footer>
+  <div class="footer__bar">
+    Copyright © 2024 Yash & Kuldeep. All rights reserved.
+  </div>
+  <script>
+    // Example JavaScript: Change button color on hover
+    const button = document.querySelector('.btn');
+    button.addEventListener('mouseenter', () => {
+      button.style.backgroundColor = '#6ab04c'; // Change to a shade of green
+    });
+    button.addEventListener('mouseleave', () => {
+      button.style.backgroundColor = 'var(--secondary-color)'; // Revert to original color
+    });
+  </script>
+</body>
+</html>
